@@ -1,0 +1,26 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	printf ("hello"); 
+	return 0;
+}
+
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {printf("hello world");
+	return 0;
+}
+
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {printf("=D=");
+	return 0;
+}
