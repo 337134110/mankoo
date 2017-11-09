@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main()
+{int c,d,e,h,i,f=1,g=0,n,m=0,j=0,k=0,a[25]={0},b[25]={0};
+ cout<<"输入一个整数";
+ cin>>n;
+ h=n;
+ while(h>0)
+ {a[j++]=h%10;
+ h=h/10;
+ }
+ for(j=0;a[j]!=0;j++)
+ {c=j;
+  } 
+  for(i=c;i>=1;i--)
+  {
+  f=f*10;
+  }
+  for(k=0;k<=24;k++)
+  {b[k]=f;
+   f=f/10;
+  }
+  for(j=0,k=0;j<=24;k++,j++)
+  {e=a[j]*b[k];
+   g=g+e;
+  }
+  for(j=0;j<=24;j++)
+  {cout<<a[j]<<'\t';
+  }
+  cout<<endl;
+  for(k=0;k<=24;k++)
+  {cout<<b[k]<<'\t';
+  }
+  cout<<endl;
+  cout<<g<<endl;
+  cout<<n<<endl;
+ if(g==n) cout<<"是回文数";
+ else cout<<"不是回文数"; 
+	return 0;
+}
